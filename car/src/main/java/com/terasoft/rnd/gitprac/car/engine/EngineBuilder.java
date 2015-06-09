@@ -6,20 +6,22 @@ public class EngineBuilder {
 	{
 		Engine engine = new Engine();
 		engine.addPart(new EnginePart("Camshaft"));
-		engine.addPart(new EnginePart("ValveCover"));
-		engine.addPart(new EnginePart("IntakeValve"));
-		engine.addPart(new EnginePart("IntakePort"));
+		engine.addPart(new EnginePart("Valve Cover"));
+		engine.addPart(new EnginePart("Intake Valve"));
+		engine.addPart(new EnginePart("Intake Port"));
 		engine.addPart(new EnginePart("Head"));
 		engine.addPart(new EnginePart("Coolant"));
-		engine.addPart(new EnginePart("EngineBlock"));
-		engine.addPart(new EnginePart("OilPan"));
-		engine.addPart(new EnginePart("OilSump"));
-		engine.addPart(new EnginePart("SparkPlug"));
-		engine.addPart(new EnginePart("ExhaustValve"));
-		engine.addPart(new EnginePart("ExhaustPort"));
+		engine.addPart(new EnginePart("Engine Block"));
+		engine.addPart(new EnginePart("Oil Pan"));
+		engine.addPart(new EnginePart("Oil Sump"));
+		engine.addPart(new EnginePart("Spark Plug"));
+		engine.addPart(new EnginePart("Exhaust Valve"));
+		engine.addPart(new EnginePart("Exhaust Port"));
 		engine.addPart(new EnginePart("Piston"));
-		engine.addPart(new EnginePart("ConnectingRod"));
-		engine.addPart(new EnginePart("RodBearing"));
+		engine.addPart(new EnginePart("Cylinder"));
+		engine.addPart(new EnginePart("Piston Rings"));
+		engine.addPart(new EnginePart("Connecting Rod"));
+		engine.addPart(new EnginePart("Rod Bearing"));
 		engine.addPart(new EnginePart("Crankshaft"));
 		return engine;
 	}
